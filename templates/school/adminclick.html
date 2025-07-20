@@ -1,0 +1,20 @@
+{% extends 'school/homebase.html' %}
+
+{% block content %}
+
+<br><br>
+
+<div class="jumbotron text-center" style="margin-bottom:0px; background-color: #f8f9fa; padding: 50px; border-radius: 10px;">
+  <h1 class="display-4 font-weight-bold" style="color: #dc3545; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Admin Login Panel</h1>
+  <p class="lead" style="font-size: 22px; color: #343a40;">Welcome to the School Management System.</p>
+  <hr class="my-4" style="border-top: 2px solid #dc3545; width: 50%;">
+  
+  <p class="font-weight-bold" style="font-size: 18px; color: #343a40;">Please select an option to continue:</p>
+
+  <div class="d-flex justify-content-center gap-3 mt-3">
+    <a class="btn btn-danger btn-lg px-4 py-2" href="adminsignup" role="button" style="border-radius: 8px; box-shadow: 2px 2px 5px rgba(220, 53, 69, 0.3);">Sign Up</a>
+    <a class="btn btn-success btn-lg px-4 py-2" href="adminlogin" role="button" style="border-radius: 8px; box-shadow: 2px 2px 5px rgba(40, 167, 69, 0.3);">Login</a>
+  </div>
+</div>
+
+{% endblock content %}
